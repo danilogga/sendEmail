@@ -20,7 +20,7 @@ public class SendEmail {
 
     public static void main(String[] args) {
         try {
-            System.out.println("testando git");
+            System.out.println("ATUALIZANDO BRANCH FLEXDOC git");
             sendEmail();
 
             System.out.println(new String(FileUtility.getBytesOfFile(new File("email-template.html")), Charset.forName("UTF-8")));
