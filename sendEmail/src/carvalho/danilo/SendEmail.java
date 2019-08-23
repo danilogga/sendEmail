@@ -26,6 +26,7 @@ public class SendEmail {
 
             System.out.println(new String(FileUtility.getBytesOfFile(new File("email-template.html")), Charset.forName("UTF-8")));
 
+            System.out.println("ALTERAÇÃO NÃO CONFLITANTE");
         } catch (Exception e) {
             e.printStackTrace();
         }
