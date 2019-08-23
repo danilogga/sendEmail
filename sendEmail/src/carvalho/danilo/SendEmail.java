@@ -23,7 +23,7 @@ public class SendEmail {
             System.out.println("ATUALIZANDO BRANCH FLEXDOC git");
             sendEmail();
             System.out.println("MAIS UMA ALTERAÇÃO NO BRANCH FLEXDOC");
-
+            System.out.println("ESSA LINHA NÃO VAI CONFLITAR BRANCH FLEXDOC");
             System.out.println(new String(FileUtility.getBytesOfFile(new File("email-template.html")), Charset.forName("UTF-8")));
 
         } catch (Exception e) {
