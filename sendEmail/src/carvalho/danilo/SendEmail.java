@@ -21,9 +21,11 @@ public class SendEmail {
     public static void main(String[] args) {
         try {
             System.out.println("ATUALIZANDO BRANCH ITAU git");
+            System.out.println("ATUALIZANDO BRANCH FLEXDOC git");
             sendEmail();
             System.out.println("NOVA ALTERAÇÃO NO BRANCH ITAU");
-
+            System.out.println("MAIS UMA ALTERAÇÃO NO BRANCH FLEXDOC");
+            System.out.println("ESSA LINHA NÃO VAI CONFLITAR BRANCH FLEXDOC");
             System.out.println(new String(FileUtility.getBytesOfFile(new File("email-template.html")), Charset.forName("UTF-8")));
 
             System.out.println("ALTERAÇÃO NÃO CONFLITANTE");
